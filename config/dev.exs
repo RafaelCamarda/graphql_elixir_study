@@ -40,7 +40,7 @@ config :phoenix, :stacktrace_depth, 20
 config :community, Community.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "inicial1234",
   database: "community_dev",
   hostname: "localhost",
   pool_size: 10
